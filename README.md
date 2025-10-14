@@ -1,10 +1,11 @@
 # 🚧 Work in Progress 🚧
 
-- Upcoming features include changing each car’s direction based on the keys pressed so that their rotation visually matches their movement
-- Implementing world boundaries to prevent vehicles from moving off-screen indefinitely
--  Adding logic to stop a car’s movement completely once a collision is detected.
--  A race timer system will be introduced, starting with a 3-2-1 countdown before the race begins, tracking elapsed time during gameplay, and displaying the final completion time once the finish line is reached.
--   After the race, players will have the option to restart or quit
+Upcoming features include:
+  - Changing each car’s direction based on the keys pressed so that their rotation visually matches their movement
+  - Implementing world boundaries to prevent vehicles from moving off-screen indefinitely
+  -  Adding logic to stop a car’s movement completely once a collision is detected.
+  -  A race timer system will be introduced, starting with a 3-2-1 countdown before the race begins, tracking elapsed time during gameplay, and displaying the final completion time once the finish line is reached.
+  -   After the race, players will have the option to restart or quit
 
 # 🕹️ Project Overview — Sprite Inheritance and Collision System (Pygame)
 

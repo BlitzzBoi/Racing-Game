@@ -8,19 +8,21 @@ It builds a small interactive framework where different types of game objects (s
 1. my_sprite
 
 Represents the most basic game object:
-- Loads and stores an image (image_fname) and its position (loc).
-- Provides basic getters for the sprite’s image, width, and height.
-- Can optionally be scaled or rotated when loaded.
+  - Loads and stores an image (image_fname) and its position (loc).
+  - Provides basic getters for the sprite’s image, width, and height.
+  - Can optionally be scaled or rotated when loaded.
 
 2. colliding_object (inherits from my_sprite)
+
 Extends my_sprite by adding collision detection:
-- Creates a bounding box (pygame.Rect) based on the image size and position.
-- Provides a method is_colliding_with() that checks whether it overlaps another colliding object.
+  - Creates a bounding box (pygame.Rect) based on the image size and position.
+  - Provides a method is_colliding_with() that checks whether it overlaps another colliding object.
 
 3. moving_vehicle (inherits from colliding_object)
+
 Adds movement capabilities:
-- Includes a set_location() method to update the object’s position and bounding box dynamically.
-- Used for player-controlled vehicles that can move around the screen.
+  - Includes a set_location() method to update the object’s position and bounding box dynamically.
+  - Used for player-controlled vehicles that can move around the screen.
 
 # 🏁 Main Program (main.py)
 

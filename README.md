@@ -4,7 +4,7 @@ This project demonstrates the use of object-oriented programming with inheritanc
 
 It builds a small interactive framework where different types of game objects (sprites, collidable objects, and moving vehicles) are modeled through a class hierarchy. The program visually displays and moves objects on a Pygame window, detects collisions, and manages sprite rendering.
 
-🧱 Class Architecture
+# 🧱 Class Architecture
 1. my_sprite
 
 Represents the most basic game object:
@@ -30,7 +30,7 @@ Adds full movement and gameplay functionality:
 - Can be frozen permanently when colliding with an obstacle or reaching the finish line.
 - Designed for player-controlled entities that move, rotate, and interact with their surroundings.
 
-🏁 Main Program (main.py)
+# 🏁 Main Program (main.py)
 
 The main.py file brings all the components together into a fully interactive racing simulation built with Pygame:
 - Initializes the game window, assets, and main loop.
@@ -45,7 +45,7 @@ The main.py file brings all the components together into a fully interactive rac
 - Displays a race timer, showing each car’s completion time or “DNF” (Did Not Finish) if they collided.
 - Provides an interactive Restart and Quit button at the end of the race.
 
-⚙️ Core Features
+# ⚙️ Core Features
 
 - Object-Oriented Design: Demonstrates inheritance, specialization, and modular structure across three layered classes.
 - Accurate Movement & Rotation: Vehicles rotate smoothly in all eight directions, including diagonals.
